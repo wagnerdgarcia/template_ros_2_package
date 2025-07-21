@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>template_ros_2_package</name>
+  <version>0.0.1</version>
+  <description>Um pacote ROS 2 template para fins didáticos.</description>
+  <maintainer email="aluno@exemplo.com">Nome do Aluno</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_lifecycle</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

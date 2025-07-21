@@ -1,0 +1,5 @@
+# Parâmetros para o 'meu_lifecycle_node'
+meu_lifecycle_node:
+  ros__parameters:
+    # Parâmetro do tipo string para o nó de ciclo de vida
+    parametro_lifecycle: "Parâmetro específico do Lifecycle Node"

@@ -1,0 +1,13 @@
+# Este é um exemplo de arquivo .srv
+# Ele define a estrutura de um serviço customizado.
+
+# --- Requisição ---
+# A parte acima do '---' é a requisição.
+string pergunta
+
+---
+
+# --- Resposta ---
+# A parte abaixo do '---' é a resposta.
+string resposta
+bool sucesso

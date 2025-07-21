@@ -1,0 +1,7 @@
+# Parâmetros para o 'meu_simple_node'
+meu_simple_node:
+  ros__parameters:
+    # Parâmetro do tipo string
+    meu_parametro_string: "Parâmetro do nó simples!"
+    # Parâmetro do tipo double
+    meu_parametro_double: 5.5
