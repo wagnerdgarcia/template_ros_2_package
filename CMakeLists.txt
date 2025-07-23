@@ -74,7 +74,7 @@ install(TARGETS
   simple_node
   lifecycle_node_lib
   lifecycle_node
-  DESTINATION lib/${PROJECT_NAME}
+  DESTINATION lib
 )
 
 # Instala os ficheiros de cabeçalho, launch, params, msg e srv.
